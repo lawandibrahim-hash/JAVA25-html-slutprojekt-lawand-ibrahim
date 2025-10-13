@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="cssreset.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="index.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+				<a class="navbar-brand" href="#">Lawand</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="index.html">Start</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="information.html">Information</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="projects.html">Projects</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<main>
+			<div class="container my-5">
+				<h1 class="mb-4">Projects</h1>
+				<p class="lead">
+					Below are three sample project pages. Each entry follows the same layout: title, hero image, small gallery and a short description with a
+					link to the project page.
+				</p>
+
+				<!-- Project 1 -->
+				<section class="project mb-5">
+					<h2>Portfolio Website</h2>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png" alt="Portfolio hero" class="img-fluid rounded mb-3" />
+					<div class="row g-2 mb-3">
+						<div class="col-4">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png" class="img-fluid rounded" alt="s1" />
+						</div>
+						<div class="col-4">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png" class="img-fluid rounded" alt="s2" />
+						</div>
+						<div class="col-4">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png" class="img-fluid rounded" alt="s3" />
+						</div>
+					</div>
+					<p>
+						This portfolio site showcases responsive layouts, accessible navigation and a lightweight design. Built with HTML, CSS and a touch of
+						Bootstrap for layout utilities. The project includes multiple pages, contact form integration and image galleries.
+					</p>
+					<a class="btn btn-outline-primary">Open project page</a>
+				</section>
+
+				<!-- Project 2 -->
+				<section class="project mb-5">
+					<h2>Todo App</h2>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png" alt="Todo hero" class="img-fluid rounded mb-3" />
+					<div class="row g-2 mb-3">
+						<div class="col-4">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png" class="img-fluid rounded" alt="t1" />
+						</div>
+						<div class="col-4">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png" class="img-fluid rounded" alt="t2" />
+						</div>
+						<div class="col-4">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png" class="img-fluid rounded" alt="t3" />
+						</div>
+					</div>
+					<p>
+						A small single-page Todo application demonstrating local storage persistence, adding/removing tasks and filter views. Ideal for practicing
+						DOM manipulation and small-state management.
+					</p>
+					<a class="btn btn-outline-primary">Open project page</a>
+				</section>
+
+				<!-- Project 3 -->
+				<section class="project mb-5">
+					<h2>Weather Dashboard</h2>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png" alt="Weather hero" class="img-fluid rounded mb-3" />
+					<div class="row g-2 mb-3">
+						<div class="col-4">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png" class="img-fluid rounded" alt="w1" />
+						</div>
+						<div class="col-4">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png" class="img-fluid rounded" alt="w2" />
+						</div>
+						<div class="col-4">
+							<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png" class="img-fluid rounded" alt="w3" />
+						</div>
+					</div>
+					<p>
+						A dashboard that consumes a weather API to display current conditions and a 5-day forecast. The project emphasizes API integration, error
+						handling and responsive cards for mobile-first design.
+					</p>
+					<a class="btn btn-outline-primary">Open project page</a>
+				</section>
+			</div>
+		</main>
+		<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top container">
+			<div class="col-md-4 d-flex align-items-center">
+				<span class="mb-md-0">© 2025 Lawand Ibrahim</span>
+			</div>
+			<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+				<li class="ms-3">
+					<a class="instagram-icon" href="#" aria-label="LinkedIn"
+						><svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z" fill="fill" />
+							<path
+								d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z"
+								fill="currentColor"
+							/>
+							<path
+								d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z"
+								fill="currentColor"
+							/>
+							<path
+								fill-rule="evenodd"
+								clip-rule="evenodd"
+								d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z"
+								fill="currentColor"
+							/>
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>

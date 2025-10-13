@@ -1,0 +1,28 @@
+:root {
+	--primary-bg-color: #faf8f1; /* global scope */
+	--secondary-bg-color: #2a3737;
+}
+
+body {
+	background-color: var(--primary-bg-color);
+}
+
+.navbar {
+	background-color: var(--secondary-bg-color);
+}
+
+.navbar .navbar-toggler {
+	background-color: var(--primary-bg-color);
+}
+.navbar .navbar-brand,
+.navbar .nav-link {
+	color: var(--primary-bg-color);
+}
+
+footer {
+	background-color: var(--secondary-bg-color);
+}
+footer span,
+footer a {
+	color: var(--primary-bg-color);
+}
