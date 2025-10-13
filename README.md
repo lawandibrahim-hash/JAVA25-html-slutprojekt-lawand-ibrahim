@@ -1,2 +1,2 @@
-Hello1
-This is Lawand Ibrahims Portfolio for future projects
+Hello!
+My name is Lawand and this is my portfolio for future projects!
